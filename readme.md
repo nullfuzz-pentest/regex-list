@@ -1,4 +1,7 @@
-        
+   <h1 align="center">Regex list</h1>
+   
+   
+   
     'Google API': r'AIza[0-9A-Za-z-_]{35}'
     "Artifactory API Token": r'(?:\s|=|:|"|^)AKC[a-zA-Z0-9]{10,}'
     "Artifactory Password": r'(?:\s|=|:|"|^)AP[\dABCDEF][a-zA-Z0-9]{8,}'
