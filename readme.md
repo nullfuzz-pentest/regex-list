@@ -78,6 +78,7 @@
     "Shopify Shared Secret": r"shpss_[a-fA-F0-9]{32}"
     "Shopify Custom Access Token": r"shpca_[a-fA-F0-9]{32}"
     "Shopify Access Token": r"shpat_[a-fA-F0-9]{32}"
+    "Grafana access Token" : "eyJrIjoi[A-Za-z0-9]{70,400}={0,2}"
     "Asana Client ID": r"""(?i)(?:asana)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([0-9]{16})(?:['|\"|\n|\r|\s|\x60|;]|$)"""
     "Asana Client Secret": r"""(?i)(?:asana)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([a-z0-9]{32})(?:['|\"|\n|\r|\s|\x60|;]|$)"""
     
